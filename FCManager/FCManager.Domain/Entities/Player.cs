@@ -64,9 +64,7 @@ namespace FCManager.Domain.Entities
             Statistics.MinutesPlayed += minutesPlayed;
         }
     }
-
-    public record Position(string Name);
-
+// dodaæ do oddzielnych plików
     public class PlayerStatistics
     {
         public int Goals { get; set; }
