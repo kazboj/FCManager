@@ -1,3 +1,4 @@
+using FCManager.Domain.Entities;
 using System;
 using System.Collections.Generic;
 
@@ -74,33 +75,7 @@ namespace FCManager.Domain.Entities
         // Mo¿esz dodaæ inne statystyki wed³ug potrzeb
     }
 
-    // Przyk³adowe szkielety powi¹zanych encji:
-    public class Contract
-    {
-        public Guid Id { get; private set; }
-        public DateOnly StartDate { get; private set; }
-        public DateOnly EndDate { get; private set; }
-        public decimal Salary { get; private set; }
-        public ContractStatus Status { get; private set; }
-        // ...
-    }
 
-    public enum ContractStatus
-    {
-        Active,
-        Ended,
-        Archived
-    }
-
-    public class Card
-    {
-        public Guid Id { get; private set; }
-        public CardType Type { get; private set; }
-        public DateOnly Date { get; private set; }
-        public string Reason { get; private set; }
-        public CardStatus Status { get; private set; }
-        // ...
-    }
 
     public enum CardType
     {
@@ -111,6 +86,6 @@ namespace FCManager.Domain.Entities
     public enum CardStatus
     {
         Served,
-        NotServed
+        NotServed,
     }
 }

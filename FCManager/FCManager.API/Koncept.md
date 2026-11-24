@@ -60,7 +60,7 @@ Jako trener chcê dodaæ nowego zawodnika, aby mieæ aktualny sk³ad dru¿yny.
 
 ## Model danych – kontrakty i kartki
 
-- **Kontrakt**: osobny obiekt powi¹zany z zawodnikiem, zarz¹dzany przez dyrektora sportowego. Zawiera m.in. datê rozpoczêcia, zakoñczenia, status, wynagrodzenie.
+- **Kontrakt**: osobny obiekt powi¹zany z zawodnikiem, zarz¹dzany przez dyrektora sportowego. Zawiera m.in. datê rozpoczêcia, zakoñczenia, wynagrodzenie.
 - **Kartka**: osobny obiekt powi¹zany z zawodnikiem, zarz¹dzany przez trenera i asystenta trenera. Zawiera typ (¿ó³ta/czerwona), datê, powód, status (odbyta/nieodbyta).
 
 ## Nowe funkcjonalnoœci
